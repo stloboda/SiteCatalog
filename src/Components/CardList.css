@@ -1,0 +1,53 @@
+.card {
+  width: 25 0px;
+  box-shadow: 1px 8px 16px -8px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  margin: 0 30px 40px 30px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card__img img {
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+}
+
+.card__desc {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  color: #0b3096;
+}
+
+.card__title {
+  margin-bottom: 0.5rem;
+}
+
+.card__btn {
+  display: flex;
+  justify-content: center;
+}
+
+.card__btn button {
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 0.2rem;
+}
+
+.card__btn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
