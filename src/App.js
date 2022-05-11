@@ -8,10 +8,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App" id="home">
         <Header />
         <Routes>
-          <Route path="catalog" element={<CatalogCard />} />
+          <Route path="/" element={<CatalogCard />} />
           <Route path="catalog/:id" element={<CardItem />} />
         </Routes>
       </div>
