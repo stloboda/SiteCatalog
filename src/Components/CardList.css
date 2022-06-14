@@ -1,7 +1,6 @@
 .card {
   width: 25 0px;
   box-shadow: 1px 8px 16px -8px rgba(0, 0, 0, 0.75);
-  border-radius: 8px;
   margin: 0 30px 40px 30px;
   overflow: hidden;
   transition: 0.5s;
@@ -14,7 +13,7 @@
 .card__img img {
   width: 100%;
   overflow: hidden;
-  height: 200px;
+  height: 300px;
 }
 
 .card__desc {
@@ -26,7 +25,7 @@ h3,
 p {
   margin: 0;
   padding: 0;
-  color: #0b3096;
+  color: #0a0b0b;
 }
 
 .card__title {
@@ -40,14 +39,15 @@ p {
 
 .card__btn button {
   padding: 0.5rem;
-  background-color: white;
+  background-color: #6b8ef1;
   border: none;
   transition: 0.2s;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .card__btn a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
+  color: white;
 }

@@ -44,7 +44,7 @@ const Header = () => {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={-150}
+                offset={-250}
                 duration={500}
                 className="nav__link"
               >
@@ -69,10 +69,10 @@ const Header = () => {
             <li className="nav__item">
               <Link
                 activeClass="active"
-                to="#"
+                to="about"
                 spy={true}
                 smooth={true}
-                offset={150}
+                offset={0}
                 duration={500}
                 className="nav__link"
               >
@@ -83,16 +83,19 @@ const Header = () => {
             <li className="nav__item">
               <Link
                 activeClass="active"
-                to="#"
+                to="contact"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-70}
                 duration={500}
                 className="nav__link"
               >
                 <IoMdContacts />
                 <span>Contact</span>
               </Link>
+            </li>
+            <li className="nav__item">
+              <button className="btn-nav">Help now</button>
             </li>
           </IconContext.Provider>
         </ul>

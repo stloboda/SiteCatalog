@@ -7,11 +7,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #0b3096;
+  color: #0a0b0b;
 }
 
 .header-bg {
-  background-color: #0b3096;
+  background-color: #0a0b0b;
   color: white;
 }
 
@@ -52,7 +52,15 @@
   cursor: pointer;
 }
 
-.nav__item a:hover {
+.header .nav__item a:hover {
   padding-bottom: 10px;
-  border-bottom: 3px solid #0b3096;
+  border-bottom: 3px solid black;
+}
+
+.header-bg .nav__item a:hover {
+  padding-bottom: 10px;
+  border-bottom: 3px solid white;
+}
+
+.btn-nav {
 }

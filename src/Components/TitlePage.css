@@ -1,0 +1,19 @@
+.title {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 250px;
+  align-items: center;
+}
+
+.title__text {
+  width: 50%;
+  text-align: center;
+  background-color: #6b8ef1;
+}
+
+.title__text-h1 {
+  color: white;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 45px;
+}

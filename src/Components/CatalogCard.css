@@ -1,16 +1,18 @@
 .catalog__desc {
-  margin: 150px 100px 0 100px;
+  margin: 250px 100px 0 100px;
   text-align: center;
 }
 
 .desc__main {
   font-size: 40px;
-  color: #0b3096;
+  color: #0a0b0b;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .desc__second {
   font-size: 18px;
-  color: #0b3096;
+  color: #0a0b0b;
   margin-top: 30px;
 }
 
